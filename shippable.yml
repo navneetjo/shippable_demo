@@ -22,5 +22,5 @@ before_script:
   
   # Running npm test to run your test cases
 script:
-  - mocha tests\mochaTestSuite\mochatest.js
+  - mocha .\tests\mochaTestSuite\mochatest.js
   - grunt --force
