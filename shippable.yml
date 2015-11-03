@@ -3,7 +3,7 @@ language: node_js
 
 # version numbers
 node_js:
-  - "0.12"
+  - "0.12.2"
   
 before_install:
 # Activate the required node.js version. $SHIPPABLE_NODE_VERSION for this sample is 0.10.24
@@ -22,5 +22,4 @@ before_script:
   
   # Running npm test to run your test cases
 script:
-  - grunt mocha_istanbul
   - grunt --force

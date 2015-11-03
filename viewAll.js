@@ -6,7 +6,7 @@ var express = require('express');
 //create connection
 //var db = mongoose.createConnection('localhost','test');
 
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://172.27.59.61/test');
 var db=mongoose.connection;
 
 
