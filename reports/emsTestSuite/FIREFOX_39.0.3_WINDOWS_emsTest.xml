@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="emsTest"
+    errors="1" failures="1" hostname="" id="" package="emsTest" skipped="0"
+    tests="2" time="6.454" timestamp="Tue, 25 Aug 2015 13:11:46 GMT">
+  
+    <testcase name="Test for EMS-APPLICATION" time="5.749" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;body &gt; div.ng-scope &gt; div &gt; div &gt; table &gt; thead &gt; tr:nth-child(2) &gt; td:nth-child(1)&quot; using: css selector
+Unable to locate element: &quot;body &gt; div.ng-scope &gt; div &gt; div &gt; table &gt; thead &gt; tr:nth-child(6) &gt; td:nth-child(1)&quot; using: css selector
+      </system-err>
+  
+    <testcase name="List of Employees" time="0.7050" assertions="3">
+
+    
+
+      <failure message="Failed [equal]: ({ additionalInformation: &#39;\nDriver info: driver.version: unknown&#39;,
+  localizedMessage: &#39;Unable to locate element: {&quot;method&quot;:&quot;css == &#39;4444&#39;)">Failed [equal]: ({ additionalInformation: &#39;\nDriver info: driver.version: unknown&#39;,
+  localizedMessage: &#39;Unable to locate element: {&quot;method&quot;:&quot;css == &#39;4444&#39;): Expected &quot;4444&quot; but got: &quot;[object Object]&quot;
+    at Object.equal (D:\AngularNodePoc\usingNgRoutes\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\AngularNodePoc\usingNgRoutes\tests\emsTestSuite\emsTest.js:35:17)
+    at Object.&lt;anonymous&gt; (D:\AngularNodePoc\usingNgRoutes\node_modules\nightwatch\lib\api\element-commands.js:344:18)
+    at HttpRequest.&lt;anonymous&gt; (D:\AngularNodePoc\usingNgRoutes\node_modules\nightwatch\lib\index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (D:\AngularNodePoc\usingNgRoutes\node_modules\nightwatch\lib\index.js:344:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (D:\AngularNodePoc\usingNgRoutes\node_modules\nightwatch\lib\http\request.js:150:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16</failure>
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;body &gt; div.ng-scope &gt; div &gt; div &gt; table &gt; thead &gt; tr:nth-child(2) &gt; td:nth-child(1)&quot; using: css selector
+Unable to locate element: &quot;body &gt; div.ng-scope &gt; div &gt; div &gt; table &gt; thead &gt; tr:nth-child(6) &gt; td:nth-child(1)&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+app.get('/',function(req,res){
+res.render('index',{ //index is index.layout in views folder
+title:"The front page"
+})
+
+});
+
+if we want to use the title in index.layout we use #{title}.

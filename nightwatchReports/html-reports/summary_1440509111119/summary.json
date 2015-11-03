@@ -1,0 +1,106 @@
+{
+    "numTests": 3,
+    "numFailures": 2,
+    "numSuccess": 1,
+    "summaryReportGenDateTime": "8/25/2015, 6:55:11 PM",
+    "suites": [
+        {
+            "file": "reports/emsTestSuiteReports/FIREFOX_31.0_WINDOWS_emsTest.xml",
+            "name": "emsTest",
+            "numTests": 2,
+            "numSkipped": 0,
+            "numFailures": 1,
+            "numErrors": 1,
+            "package": "emsTest",
+            "executionTime": 7.732,
+            "timestamp": "Tue, 25 Aug 2015 11:55:10 GMT",
+            "cases": [
+                {
+                    "name": "Test for EMS-APPLICATION",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 6.395,
+                    "numAssertions": 4
+                },
+                {
+                    "name": "List of Employees",
+                    "numFailures": 1,
+                    "failures": [
+                        {
+                            "message": {
+                                "message": "Failed [equal]: ({ additionalInformation: '\\nDriver info: driver.version: unknown',\n  localizedMessage: 'The given selector /html/body/div[2]/div == '4447')"
+                            },
+                            "details": "Failed [equal]: ({ additionalInformation: '\\nDriver info: driver.version: unknown',\n  localizedMessage: 'The given selector /html/body/div[2]/div == '4447'): Expected \"4447\" but got: \"[object Object]\"\n    at Object.equal (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\core\\api.js:67:24)\n    at Object.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\tests\\emsTestSuite\\emsTest.js:33:17)\n    at Object.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\api\\element-commands.js:344:18)\n    at HttpRequest.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\index.js:311:20)\n    at HttpRequest.emit (events.js:110:17)\n    at HttpRequest.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\index.js:344:15)\n    at HttpRequest.emit (events.js:118:17)\n    at IncomingMessage.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\http\\request.js:150:16)\n    at IncomingMessage.emit (events.js:129:20)\n    at _stream_readable.js:908:16"
+                        }
+                    ],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 1.337,
+                    "numAssertions": 3
+                }
+            ]
+        },
+        {
+            "file": "reports/emsTestSuiteReports/FIREFOX_39.0.3_WINDOWS_emsDelete.xml",
+            "name": "emsDelete",
+            "numTests": 1,
+            "numSkipped": 0,
+            "numFailures": 1,
+            "numErrors": 0,
+            "package": "emsDelete",
+            "executionTime": 6.261,
+            "timestamp": "Tue, 25 Aug 2015 12:42:57 GMT",
+            "cases": [
+                {
+                    "name": "Delete Test for EMS-APPLICATION",
+                    "numFailures": 1,
+                    "failures": [
+                        {
+                            "message": {
+                                "message": "Failed [equal]: ('4444' == 'body > div.ng-scope > div > div > table > thead > tr:nth-child(2) > td:nth-child(1)')"
+                            },
+                            "details": "Failed [equal]: ('4444' == 'body > div.ng-scope > div > div > table > thead > tr:nth-child(2) > td:nth-child(1)'): Expected \"body > div.ng-scope > div > div > table > thead > tr:nth-child(2) > td:nth-child(1)\" but got: \"4444\"\n    at Object.equal (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\core\\api.js:67:24)\n    at Object.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\tests\\emsTestSuite\\emsDelete.js:11:17)\n    at Object.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\api\\element-commands.js:354:20)\n    at HttpRequest.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\index.js:311:20)\n    at HttpRequest.emit (events.js:110:17)\n    at HttpRequest.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\index.js:334:15)\n    at HttpRequest.emit (events.js:118:17)\n    at IncomingMessage.<anonymous> (D:\\AngularNodePoc\\usingNgRoutes\\node_modules\\nightwatch\\lib\\http\\request.js:148:16)\n    at IncomingMessage.emit (events.js:129:20)\n    at _stream_readable.js:908:16"
+                        }
+                    ],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 6.261,
+                    "numAssertions": 4
+                }
+            ]
+        },
+        {
+            "file": "reports/emsTestSuiteReports/FIREFOX_39.0.3_WINDOWS_emsTest.xml",
+            "name": "emsTest",
+            "numTests": 2,
+            "numSkipped": 0,
+            "numFailures": 0,
+            "numErrors": 0,
+            "package": "emsTest",
+            "executionTime": 7.125,
+            "timestamp": "Tue, 25 Aug 2015 12:10:23 GMT",
+            "cases": [
+                {
+                    "name": "Test for EMS-APPLICATION",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 6.594,
+                    "numAssertions": 4
+                },
+                {
+                    "name": "List of Employees",
+                    "numFailures": 0,
+                    "failures": [],
+                    "numSkipped": 0,
+                    "skipped": [],
+                    "executionTime": 0.531,
+                    "numAssertions": 3
+                }
+            ]
+        }
+    ]
+}
