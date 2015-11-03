@@ -9,12 +9,8 @@ before_install:
 # Activate the required node.js version. $SHIPPABLE_NODE_VERSION for this sample is 0.10.24
   - node --version
   - npm install -g grunt-cli
-  
-  # 'npm install' is executed by default in Shippable - shown here for illustrative purposes
-install:
-  - npm install
-  
-# Mongo binds to 127.0.0.1 by default
+
+ # Mongo binds to 127.0.0.1 by default
 services:
   - mongodb
   # Create directories for test and coverage reports
@@ -29,5 +25,4 @@ script:
   # Tell istanbul to generate a coverage report
 after_script:
   - mongo test --eval "db.dropDatabase()"
-  - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
