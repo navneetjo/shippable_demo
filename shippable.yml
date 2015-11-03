@@ -13,8 +13,10 @@ before_install:
   # 'npm install' is executed by default in Shippable - shown here for illustrative purposes
 install:
   - npm install
-  - node viewAll.js &
   
+# Mongo binds to 127.0.0.1 by default
+services:
+  - mongodb
   # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresult
@@ -22,5 +24,4 @@ before_script:
   
   # Running npm test to run your test cases
 script:
-  - mocha .\tests\mochaTestSuite\mochatest.js
   - grunt --force
